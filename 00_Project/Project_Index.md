@@ -8,6 +8,7 @@
 - `00_Project/Inbox_Workflow.md`
 - `00_Project/GitHub_Workflow.md`
 - `00_Project/Research_Principles.md`
+- `00_Project/Research_Methodology_Execution.md`
 - `00_Project/Roadmap.md`
 - `00_Project/Workspace_Roles.md`
 
@@ -24,6 +25,7 @@
 
 - `03_Research_Frameworks/Company_Research/Company_Research_Framework.md`
 - `03_Research_Frameworks/Standard_Research_Process.md`
+- `00_Project/Research_Methodology_Execution.md`
 - `06_Research_Templates/Company_Research_Template.md`
 - `07_AI_Workflows/Research_Workflows/AI_Research_Intake_Workflow.md`
 - `05_Market_Reviews/Daily/2026-08-06_Daily_Market_Review_Sample.md`
