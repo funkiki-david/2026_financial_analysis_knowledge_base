@@ -18,6 +18,7 @@
 - `05_Market_Reviews/`
 - `06_Research_Templates/`
 - `07_AI_Workflows/`
+- `08_Data_and_Sources/references/`
 
 ## Best First Files to Open
 
