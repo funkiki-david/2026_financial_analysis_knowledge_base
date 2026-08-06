@@ -1,0 +1,42 @@
+name: Research Note
+description: Capture a new research topic, framework idea, or note to be added to the knowledge base
+title: "[Research Note]: "
+labels:
+  - research
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What is the research topic or question?
+      placeholder: Example: Build a first-pass industry framework for AI semiconductors
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested Section
+      options:
+        - 01_Financial_Foundations
+        - 02_Market_Structure
+        - 03_Research_Frameworks
+        - 04_Company_Notes
+        - 05_Market_Reviews
+        - 06_Research_Templates
+        - 07_AI_Workflows
+        - 08_Data_and_Sources
+        - 09_Learning_Log
+        - 10_Glossary
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or Inputs
+      description: Paste links, references, or raw notes if available
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired Outcome
+      description: What should this become in the knowledge base?
+      placeholder: Example: a structured Markdown note plus a reusable template
