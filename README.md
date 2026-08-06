@@ -1,14 +1,25 @@
 # 2026 金融分析知识库
 
-这是本地金融研究与知识管理工作区。
+这是一个本地优先、GitHub 同步的金融研究与知识管理工作区。
+
+目标不是搭一个自动交易系统，而是建立一套可长期迭代的研究体系：能持续积累基础知识、研究框架、公司观察、市场复盘和 AI 辅助工作流，并且把这些内容稳定地沉淀到一个结构清晰的知识库里。
 
 当前工作区从 `preview.md` 中提炼出标准目录结构，并补充了安全的文件保存方案，目标是让以后生成的 Markdown、数据文件和研究记录都能稳定落到固定位置，同时避免覆盖已有文件。
+
+## 快速导航
+
+- 项目索引：`00_Project/Project_Index.md`
+- 快速上手：`00_Project/Quick_Start.md`
+- 目录说明：`00_Project/Directory_Map.md`
+- Inbox 流程：`00_Project/Inbox_Workflow.md`
+- GitHub 工作流：`00_Project/GitHub_Workflow.md`
 
 ## 当前状态
 
 - 现有文件 `preview.md` 已保留，未改名、未覆盖。
-- 本目录已于 2026-08-06 初始化为本地 Git 仓库。
-- 当前工作分支：`codex/setup-knowledge-base`
+- 本目录已于 2026-08-06 初始化为本地 Git 仓库，并已同步到 GitHub。
+- GitHub 仓库：`funkiki-david/2026_financial_analysis_knowledge_base`
+- 当前默认分支：`main`
 - 自动保存脚本：`scripts/kb_save.sh`
 - 快速归档脚本：`scripts/kb_capture.sh`
 - 收件区转正式目录脚本：`scripts/kb_promote.sh`
@@ -152,12 +163,23 @@ EOF
 
 ## Git 使用建议
 
-已经完成本地初始化，但当前还没有连接远程仓库。你以后可以继续使用：
+当前已经连接到 GitHub 远程仓库：
+
+```text
+https://github.com/funkiki-david/2026_financial_analysis_knowledge_base
+```
+
+以后可以继续使用：
 
 ```bash
 git status
 git add .
 git commit -m "docs: update financial research knowledge base"
+git push
 ```
 
-如果你后面要接 GitHub，我也可以继续帮你补远程仓库接入规范和忽略规则优化。
+如果后面你要继续细化 GitHub 协作流程，可以优先查看：
+
+- `CONTRIBUTING.md`
+- `00_Project/GitHub_Workflow.md`
+- `.github/ISSUE_TEMPLATE/`

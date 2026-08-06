@@ -1,0 +1,25 @@
+name: Workflow Improvement
+description: Propose a better automation, intake flow, or filing rule for the repository
+title: "[Workflow]: "
+labels:
+  - workflow
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Current Friction
+      description: What feels slow, confusing, or repetitive right now?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Improvement
+      description: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: How would this help day-to-day research work?
