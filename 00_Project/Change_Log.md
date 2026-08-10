@@ -1,5 +1,11 @@
 # Change Log
 
+## 2026-08-10
+
+- 将 `financial-research-copilot/` 并入主知识库仓库
+- 保留其作为仓库内普通子目录，而不是独立 Git 仓库
+- 更新 README 与项目索引，加入 copilot 入口
+
 ## 2026-08-06
 
 - 初始化本地知识库目录结构

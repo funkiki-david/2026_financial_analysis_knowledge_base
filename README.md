@@ -85,6 +85,7 @@ EOF
 ├── 09_Learning_Log/
 ├── 10_Glossary/
 ├── 90_Inbox/
+├── financial-research-copilot/
 ├── config/
 ├── scripts/
 └── logs/
@@ -104,6 +105,7 @@ EOF
 - `09_Learning_Log/`：问题、复盘、学习记录
 - `10_Glossary/`：术语表
 - `90_Inbox/`：尚未分类的临时输入
+- `financial-research-copilot/`：最小可运行的自然语言金融研究 CLI 原型
 
 备注：
 
@@ -183,3 +185,26 @@ git push
 - `CONTRIBUTING.md`
 - `00_Project/GitHub_Workflow.md`
 - `.github/ISSUE_TEMPLATE/`
+
+## Research Copilot
+
+仓库当前还包含一个独立的最小原型：
+
+```text
+financial-research-copilot/
+```
+
+用途：
+
+- 以自然语言触发最小研究流程
+- 读取已有公司知识
+- 查询 SEC 与近期新闻
+- 输出结构化研究结果
+- 仅在显式 `save` 时写回本地知识
+
+运行方式：
+
+```bash
+cd "financial-research-copilot"
+python3 -m app.main
+```

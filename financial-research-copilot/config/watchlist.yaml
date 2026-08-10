@@ -1,0 +1,20 @@
+{
+  "watchlist": [
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation"
+    },
+    {
+      "ticker": "AMD",
+      "company": "Advanced Micro Devices, Inc."
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple Inc."
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation"
+    }
+  ]
+}

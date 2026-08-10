@@ -20,6 +20,7 @@
 - `06_Research_Templates/`
 - `07_AI_Workflows/`
 - `08_Data_and_Sources/references/`
+- `financial-research-copilot/`
 
 ## Best First Files to Open
 
@@ -29,6 +30,7 @@
 - `06_Research_Templates/Company_Research_Template.md`
 - `07_AI_Workflows/Research_Workflows/AI_Research_Intake_Workflow.md`
 - `05_Market_Reviews/Daily/2026-08-06_Daily_Market_Review_Sample.md`
+- `financial-research-copilot/README.md`
 
 ## Current Operating Model
 
