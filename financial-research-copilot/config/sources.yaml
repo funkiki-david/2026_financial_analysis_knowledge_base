@@ -1,0 +1,27 @@
+{
+  "user_agent": "FinancialResearchCopilot/0.1 (personal research CLI; contact: local-user@example.com)",
+  "sec_submissions_url_template": "https://data.sec.gov/submissions/CIK{cik}.json",
+  "news_rss_url_template": "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en",
+  "companies": {
+    "NVDA": {
+      "company": "NVIDIA Corporation",
+      "cik": "0001045810",
+      "ir_url": "https://investor.nvidia.com/"
+    },
+    "AMD": {
+      "company": "Advanced Micro Devices, Inc.",
+      "cik": "0000002488",
+      "ir_url": "https://ir.amd.com/"
+    },
+    "AAPL": {
+      "company": "Apple Inc.",
+      "cik": "0000320193",
+      "ir_url": "https://investor.apple.com/"
+    },
+    "MSFT": {
+      "company": "Microsoft Corporation",
+      "cik": "0000789019",
+      "ir_url": "https://www.microsoft.com/en-us/investor"
+    }
+  }
+}
